@@ -1,0 +1,30 @@
+-->1.What can be done with Multilayer Perceptrons, that isn't possible with a single layer of perceptrons?
+
+   In Single layer of Perceptrons it deals with linear networks ie
+   it can classify the networks into two classes(binary :0's or 1's)
+   it can map similar input patterns to similar output patterns
+   But some times we need to map the single input pattern to different output requirements in this case we cannot use Single Layer Perceptions      which gave us a new concept of MultiLayer Perception in which it deals with multiple hidden layers using the concept of Exclusive OR(XOR)
+   So from this we can say Multilayer Perception deals with mostly non-linear networks which cannot be done with Single Layer Perception
+
+
+-->2.You are working on a classification task with 100 inputs and 3 outputs.  You are using a MLP with one hidden layer that contains 50             neurons.Your classification accuracy is 78%.   Which hyper parameters could be adjusted to improve your model?
+
+    We can try to adjust the Regularization parameter (Beta) by increasing or decreasing it and also by adjusting min_batch size  it can improve     our accuracy score
+
+
+-->3.In your own words, what is back propagation?
+
+   Back propagation is used to train the Neural Network models,its main idea is to decrease error rate between actual ouptut which we got and      the target output. It is to make errors to propagate backwards through the network to yield a better set of weights that would match the        inputs to the outputs.Using Back Propagation it yields new weights for the neurons so that it makes the actual output closer to target output
+
+
+-->4.Regarding Convolution Layers, what does the term 'patch size' mean?
+
+   Patch_size is the size of the filter(like 5*5) which we slide through the image for convolution process
+
+
+-->5.What is Google's Inception Module and why would it improve on the convolutional layers you were show in class?
+
+   The Inception Module is software in  artificial neural network which identifies certain characteristics within an image.In convolution  
+   neural networks it try to reduce the dimensionality of filter by increasing number of filters within each convolution layer so that it can          increases the visibilty by making things hidden in image visible more clearly
+
+
